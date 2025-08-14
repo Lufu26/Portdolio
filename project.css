@@ -259,3 +259,68 @@ section{
        font-size: 2.6rem;
        margin: 1rem 3rem; 
   }
+
+  /* testimonial section code */
+
+  .testimonial {
+    background: var(--and-bg-color);
+  }
+
+  .testimonial-box {
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .testimonial .heading {
+    margin-bottom: 5rem;
+  }
+
+  .testimonial-box img {
+    width: 10vw;
+    border-radius: 50px;
+    border: 3px solid var(--main-color);
+    box-shadow: 0 0 25px var(--main-color);
+  }
+
+  .wraper {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+  }
+  .testimonial-item {
+    main-height: 350px; 
+    max-width: 450px;
+    background: var(--bg-color);
+    border: 0.3rem solid var(--bg-color);
+    border-radius: 4rem;
+    margin: 0 1rem;
+    padding: 20px 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+    color: var(--text-color);
+    transiton: 0.3s ease;
+   }
+   .testimonial-item:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+   }
+
+   .testimonial-item h2{
+    font-size: 3rem;
+
+   }
+
+   .testimonial-item p {
+    font-size: 1.8rem;
+    align-text: center;
+   }
+   #star{
+    color:gold;
+    font-size: 2rem;
+   }
